@@ -1,0 +1,78 @@
+/* CSS has already been done for you, so you don't need to add any new classes
+    using JavaScript
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.flashcard {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.flashcard:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+}
+
+#card-content {
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.add-card-form {
+    margin-top: 20px;
+}
+
+.add-card-form input {
+    padding: 8px;
+    margin: 5px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-card-form button {
+    padding: 8px 20px;
+}

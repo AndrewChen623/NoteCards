@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- You will not need to add any new cards, 
+        this div.flashcard is the only flashcard container you need
+        just fill in what the user should see into the p#card-content -->
+        <div class="flashcard" id="flashcard">
+            <p id="card-content"></p>
+        </div>
+        <div class="buttons">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+        </div>
+        <div class="add-card-form">
+            <input type="text" id="new-term" placeholder="Enter term">
+            <input type="text" id="new-definition" placeholder="Enter definition">
+            <button id="add-card-btn">Add Card</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
